@@ -59,3 +59,13 @@ body{
 .shadow{
     box-shadow: 0 .5rem .5rem 0 rgba(0, 0, 0, 0.5) !important;
 }
+
+.bg-image-x{
+    background-image: url('img/bg-dark-2.svg');
+    background-size: cover;
+     min-height: 1000px;
+} 
+
+.card{
+    border-radius: 1rem;
+}
