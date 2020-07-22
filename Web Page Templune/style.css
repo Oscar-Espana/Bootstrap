@@ -90,6 +90,12 @@ a:hover{
      min-height: 1000px;
 } 
 
+.bg-image-xx{
+    background-image: url('img/bg-dark-3.svg');
+    background-size: cover;
+     min-height: 500px;
+}
+
 .card{
     border-radius: 1rem;
 }
@@ -102,4 +108,48 @@ a:hover{
 .rounded-top{
     border-top-left-radius: 1rem !important;
     border-top-right-radius: 1rem !important;
+}
+
+.form-control{
+    background-color: var(--dark-xx);
+    height: unset;
+    padding: 0.8rem 1rem;
+    border: none;
+}
+
+.form-control:focus{
+    background-color: var(--dark-xx);
+    box-shadow: none;
+}
+
+@media (max-width:575px){
+    .w-75{
+        width: 100% !important;
+    }
+
+    .py-5{
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    .btn{
+        width: 100% !important;
+    }
+
+    .list-inline-item{
+        display: block;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+
+    footer .list-inline-item{
+        display: inline-block;
+    }
+
+    footer .text-right{
+        text-align: center !important;
+    }
+
 }
